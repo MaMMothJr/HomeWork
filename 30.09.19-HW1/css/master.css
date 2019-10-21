@@ -1,0 +1,25 @@
+nav {
+  display: block;
+  background-color: blue;
+  width: 570px;
+  text-align: center;
+  margin: 0 auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+#const   {
+}
+#const li {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+  margin-right: 5px;
+  background: yellow;
+}
+a {
+  text-decoration: none;
+}
