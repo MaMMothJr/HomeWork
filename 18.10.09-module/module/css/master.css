@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 1170px;
+}
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 10px;
+  background: #e5e5e5;
+  color: #333332;
+}
+
+.header_section {
+  width: 780px;
+  display: flex;
+  align-items: center;
+}
+
+.header_a {
+  color: rgba(69, 69, 69, 0.8);
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 24px
+}
+.header_title {
+  padding-left: -50px;
+}
+.header_b {
+
+}
+h2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1:hover {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  color: black;
+}
+
+.header_a a:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    color: black;
+}
+
+h3 {
+  font-family: Domine;
+  font-size: 40px;
+  text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 24px;
+  text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.slider {
+  background-image: url("https://i.ibb.co/Y2BgvPn/slider.jpg"); /*два часа явно  и не явно пытался написать путь до картинки в папке, поробовал через параллакс и позициями, пришлось залить на сторонний сайт и только тогда заработало Т_Т*/
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 400px;
+  max-width: 100%;
+  padding-top: 130px;
+  filter: contrast(110%);
+
+}
+h4:hover {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  color: white;
+}
+
+.slider img {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+section {
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 60px 60px 60px 0px; /*если поставить везде 60 как в спецификации будет  каряво.*/
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.4);
+  background: white;
+}
+
+p {
+  width: 780px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 38px;
+  padding-left: 195px;
+  padding-right: 195px;
+}
+
+.main img {
+  max-width: 780px;
+  padding-left: 195px;
+  padding-right: 195px;
+}
+
+.main p:first-child {
+  font-weight: 700;
+}
+
+#ui {
+  margin: 30px 0px;
+  padding-left: 195px;
+  padding-right: 195px;;
+  color:  #ababab;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.copyright{
+  color:#a6a6a6;
+  font-size: 13px;
+  padding: 25px 0;
+  background: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+
+.copyright span {
+  color: white;
+}
+
+.social_network { /*Значки которые были на оф. сайте fontawesome не соотвествуют Вашим, возможно еслибы поискать немного дольше я бы нашел в другом месте*/
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background: rgba(0, 0, 0, 0.9);
+  /* margin: 3px 3px 3px 3px; ну не знаю, с ними получаеться каряво*/
+}
+
+.twitter {
+  color: #00b0ef;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+.behance {
+  color: #00b0ef;
+  margin-left: 10px;;
+  opacity: 0.9;
+}
+.dropbox {
+  color: #0083d1;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+.facebook {
+  color: #265999;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+.rss {
+  color: #ff7600;
+  opacity: 0.9;
+  margin-left: 10px;
+}
+
+.twitter a:hover, .behance a:hover, .dropbox a:hover, .facebook a:hover, .rss a:hover {
+  opacity: 1;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
