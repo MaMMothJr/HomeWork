@@ -1,0 +1,21 @@
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 2px solid green;
+}
+.menu li {
+  display: inline-block;
+  background: yellow;
+}
+#last {
+  border-right: none;
+}

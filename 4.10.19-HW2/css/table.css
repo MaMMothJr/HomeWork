@@ -1,0 +1,27 @@
+table {
+ border-collapse: collapse;
+ width: auto;
+ border-spacing: 0;
+}
+td {
+ border: 1px solid #6A3E14;
+ padding: 4px;
+}
+thead {
+  background: black;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+tr:nth-child(even) {
+background: grey;
+}
+td:last-child {
+  text-align: right;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+td:nth-child(4) {
+  text-align: center;
+}
