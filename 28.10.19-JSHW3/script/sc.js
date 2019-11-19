@@ -179,3 +179,13 @@ for (let i = 0; i < 10; i++) {
 //     console.log(point + hash);
 //     i++;
 // }
+// решение Сергея
+// let size = parseInt( prompt('Введите высоту елочки:') ),
+//   finalString = '';
+// for (var i = 0; i <= size; i ++) {
+//   for (var j = -size; j <= size; j ++) {
+//     finalString += (j >= -i && j <= i) ? '#' : '.' ;
+//   }
+//   finalString += '\n';
+// }
+// console.log(finalString);
