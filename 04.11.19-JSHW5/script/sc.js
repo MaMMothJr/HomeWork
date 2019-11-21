@@ -8,7 +8,6 @@ for( let i = 0 ; i < arr.length ; i++) {
   if (!isNaN(arr[i])) {
     sum += parseInt(arr[i]);
   } else {
-    continue;
   }
 };
 //arr.forEach(element => sum += element); // вопрос
@@ -48,11 +47,10 @@ for( let i = 0 ; i < arr.length ; i++) {
   if (!isNaN(arr[i])) {
     sum += parseInt(arr[i]);
   } else {
-    continue;
   }
 };
 console.log(arr); // Проверка для меня.
-alert(sum); */
+alert(sum);*/
 
 //Задание 4
 // Создайте массив со значениями: ‘AngularJS’, ‘jQuery’
@@ -91,7 +89,7 @@ let arr = [];
 for (var i = 0; i < arr1.length; i++) {
     arr[i] = [];
 		for (var j = 0; j < arr1.length; j++) {
-    let value = (arr1[i] + ' x ' + arr1[j] + ' = ' + (arr1[i]*arr1[j])); //можно было выражение сразу в push подставить и не вводить дополнительную перемееную. 
+    let value = (arr1[i] + ' x ' + arr1[j] + ' = ' + (arr1[i]*arr1[j])); //можно было выражение сразу в push подставить и не вводить дополнительную перемееную.
     arr[i].push(value);
 	}
 }

@@ -9,7 +9,7 @@
   height: '100',
   weight: '100'
 };
-newKey = prompt('Какой параметр хотите узнать?', 'name');
+let newKey = prompt('Какой параметр хотите узнать?', 'name');
 if (newKey in person && newKey !== undefined) {
    alert(person[newKey]);
   } else {
@@ -137,6 +137,6 @@ document.body.appendChild(listElement);
 for (let key in image) {
   // if(image.length) Нужно ли делать проверку?
 
-  img = document.getElementsByTagName('img');
+  let img = document.getElementsByTagName('img');
   img[0].setAttribute(key, image[key]);
 } */
