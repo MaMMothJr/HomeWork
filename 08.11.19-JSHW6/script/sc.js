@@ -35,7 +35,7 @@ console.log( max(0, -1) );*/
   for (let i = 0; i < arguments.length; i++) {
     arr[i] = arguments[i];
   };
-  arr.sort();
+  arr.sort((a, b) => a - b );
   return arr[0];
 };
 
